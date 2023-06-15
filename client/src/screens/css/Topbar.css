@@ -1,0 +1,20 @@
+.top-bar-container{
+  padding-top: 0;
+  background-color: black;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.fa-tag{
+  color:yellow !important;
+}
+
+.topbar-tab{
+  color: #ec9f05 !important;
+  font-size: large !important;
+}
+.topbar-tab:hover{
+  color: #bf8106 !important;
+}

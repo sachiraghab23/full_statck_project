@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+.navbar-brand{
+  font-size:40px!important;
+  font-family: 'Bagel Fat One',cursive;
+  color: rgb(0, 167, 0);
+}
+.navbar-brand:hover{
+  color:rgb(0, 167, 0)
+}
+.remove-link-style{
+  text-decoration: none;
+}
+ul.navbar-nav{
+  margin-left: auto;
+}
+
+.tab-name{
+  color:rgb(0, 185, 0) !important;
+  font-weight: bold !important;
+  font-size: larger !important;
+}
+.cart-item-length{
+  background-color: gold !important;
+  color: black !important;
+  font-size: large !important;
+  margin: 0 -5px !important;
+  width: 20px;
+  padding-left: 3px;
+  display: inline-block;
+}

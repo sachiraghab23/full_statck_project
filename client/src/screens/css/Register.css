@@ -1,0 +1,37 @@
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+.btn{
+  background-color: black;
+  color:#16ff00;
+}
+.btn:hover{
+  background-color: black;
+  color:#15ff00cc;
+}
+
+.click-link{
+  color:black;
+  margin-top: 20%;
+}
+
+.login-heading{
+  font-weight: bold;
+  margin: 10px auto;
+  font-size: 35px;
+  background-color: #0f6292;
+  color:white;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+.register-heading{
+  font-weight: bold;
+  margin: 10px auto;
+  font-size: 35px;
+  background-color: #b31312;
+  color:white;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+  

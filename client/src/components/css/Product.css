@@ -1,0 +1,26 @@
+h1{
+  font-size: 20px;
+}
+.product-card{
+  min-width: 22rem;
+  margin: 7%;
+  /* background-color:beige; */
+}
+
+.product-img{
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+.flex-container{
+  display: flex;
+}
+select{
+  box-shadow: none!important;
+  border-color: black!important;
+  /* width: 50% !important;; */
+}
+.btn-style{
+  background-color: rgb(0, 0, 0);
+  color:rgb(0, 255,0);
+}

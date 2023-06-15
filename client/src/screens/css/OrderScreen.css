@@ -1,0 +1,10 @@
+h2{
+  background-color: red;
+  color: white;
+}
+.flex-container{
+  display: flex;
+}
+h1{
+  font-size: 20px;
+}
