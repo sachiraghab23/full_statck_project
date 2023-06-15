@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "'server side'",
   "main": "index.js",
+  "engines":{
+    "node": "18.15.0"
+  },
   "dependencies": {
     "bcrypt": "^5.1.0",
     "concurrently": "^8.2.0",
@@ -20,8 +23,9 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "data:import": "node server.js",
-    "client": "npm start --prefix ../client",
-    "dev": "concurrently \"npm run server \"npm run client "
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server \"npm run client ",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "sachidananda dash",
   "license": "ISC"
